@@ -29,23 +29,223 @@
                 </ul>
             </div>
             <!--small break point-->
-            <div id="hamburger" class=" lg:hidden cursor-pointer">
+            <div id="hamburger" class=" lg:hidden cursor-pointer z-50">
                 <i class="fa-solid fa-bars" style="color: #51291f;"></i>
             </div>
-            <div id="menu" class="bg-color-primary-dark h-[100vh] absolute inset-0">
+            <div id="menu" class=" hidden bg-color-primary-dark h-[100vh] absolute inset-0">
                 <ul class="h-full grid place-items-center py-20">
-                    <li><a href="home" class="hover:text-color-secondary duration-200">Home</a></li>
-                    <li><a href="aboutUs" class="hover:text-color-secondary duration-200">About Us</a></li>
-                    <li><a href="testimonial" class="hover:text-color-secondary duration-200">Testimonial</a></li>
-                    <li><a href="blog" class="hover:text-color-secondary duration-200">Blog</a></li>
-                    <li><a href="contact" class="hover:text-color-secondary duration-200">Contact</a></li>
+                    <li><a id="hLink" href="home" class="hover:text-color-secondary duration-200">Home</a></li>
+                    <li><a id="hLink" href="aboutUs" class="hover:text-color-secondary duration-200">About Us</a></li>
+                    <li><a id="hLink" href="testimonial" class="hover:text-color-secondary duration-200">Testimonial</a></li>
+                    <li><a id="hLink" href="blog" class="hover:text-color-secondary duration-200">Blog</a></li>
+                    <li><a id="hLink" href="contact" class="hover:text-color-secondary duration-200">Contact</a></li>
                     
-                    <li><button class="bg-color-secondary px-9 py-3  rounded-md
-                         capitalize font-bold hover:opacity-80 ease-in duration-200">Some shit</button></li>
+                    <li><button class="btn">Some shit</button></li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <main>
+        <section id="home">
+            <div class="blob1">
+
+            </div>
+            <div class="blob2">
+            </div>
+            <div class="cotainer py-20">
+                <div class=" flex flex-col items-center z-20 md:flex-row"> 
+                    <div class="text-center mb-12 md:w-1/2 md:pr-10">
+                        <h1 class="title">
+                            No 1 guy for boreholes
+                        </h1>
+                        <p class="leading-relaxed mb-10">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat consequuntur sunt eos tempore similique ea dignissimos, 
+                            natus sapiente, optio inventore accusamus, nisi dicta vero sint temporibus hic amet omnis quod.
+                        </p>
+                        <button class="btn">Download Quotes</button></li>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="/img/headshot2.jpg" alt="/"/>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <main>
+        <section id="featured" class="bg-color-primary-light">
+            
+
+            </div>
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Our aims</h4>
+                    <h1 class="title">For affordable and reliable boreholes</h1>
+                </div>
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8 ">
+                    <!--Cards-->
+                    <div class="border-2 border-solid border-color-gray  text-center px-5 rounded-2xl cursor-pointer 
+                    hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-calendar-days text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Timely delivery</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium facere sed dolores, 
+                            ficm.</p>
+                    </div>
+                    <div class="border-2 border-solid border-color-gray  text-center px-5 rounded-2xl cursor-pointer 
+                    hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>                       
+                         </div>
+                        <h3 class="text-xl font-bold py-4">Great standard reliable boreholes</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium facere sed dolores, 
+                            ficm.</p>
+                    </div>
+                    <div class="border-2 border-solid border-color-gray  text-center px-5 rounded-2xl cursor-pointer 
+                    hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-hand-holding-droplet"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Clean water</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium facere sed dolores, 
+                            ficm.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="why-borehole">
+           
+            <div class="container py-20 relative">
+                <div class="blob1">
+
+                </div>
+                <div class="blob2">
+
+                </div>
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <div class=" mb-12 md:w-1/2">
+                        <img src="./img/headshot2.jpg" alt="">
+                    </div>
+                    <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                        <h4 class="font-bold text-color-secondary mb-4">Why a borehole</h4>
+                        <h1 class="title mb-4">Great source for reliable waer supply</h1>
+                        <p class="leading-relaxed mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, ipsa! Consequatur ullam fugit obcaecati officia soluta,
+                             non, quis nobis eveniet aspernatur voluptatum dolor ratione ipsa deserunt. Maiores exercitationem deserunt ut.</p>
+                        <button class="btn"> Read more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Pricing</h4>
+                    <h1 class="title mb-4">Get reasonable pricing</h1>
+
+                    <!--rounded switch-->
+
+                    <div class="mt-5 flex items-center justify-center gap-4 ">
+                        <p>Home borehole</p>
+                        <label  class=" cursor-pointer relative inline-block w-20 h-8 rounded-full">
+                            <input type="checkbox" id="toggleBtn" class="peer opacity-0 w-o h-0">
+                            <span class="absolute top-0 left-0 right-0 bottom-0 bg-color-primary-light 
+                            border border-solid border-color-gray rounded-full duration-300 before:content-['']
+                            before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full
+                            before:bg-color-white before:duration-300 peer-checked:before:translate-x-12 
+                            peer-checked:bg-color-secondary"></span>
+                        </label>
+                        <p>Commercial use</p>
+                    </div>
+                </div>
+
+                 <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                        <!--Card 1-->
+                     <div class="card relative h-auto w-auto">
+                            <!--Front side-->
+                         <div id="card_1_front" class="front  px-7 py-11 rounded-2xl border-2 border-solid 
+                            border-color-gray h-full w-full"> 
+                             <div class="relative">
+                                 <p class="text-4xl pl-5 font-bold before:content-['kes'] before:absolute before:text-sm
+                                    before:top-0 before:left-0">
+                                        120,000<span class="text-sm font-normal tracking-widest"> for 20 meters</span>
+                                 </p>
+
+
+                            </div>
+
+                             <div class="py-10">
+                                    <h3 class="text-xl font-bold pb-3">family package</h3>
+                                    <p class="leading-relaxed">for small nuclear family homes</p>
+
+                            </div>
+
+                             <ul class="space-y-4 pb-10">
+                                <li>
+                                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Reliable supply for a small family</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Reliable supply for a small family</span>        
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Reliable supply for a small family</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Reliable supply for a small family</span>
+                                </li>
+                            </ul>
+                           <button class="card_btn">Get Started</button>
+                        </div>
+                            <!--Back side-->
+                            <div id="card_1_back" class="back rotate-y-180 px-7 py-11 rounded-2xl border-2 border-solid 
+                            border-color-gray h-full w-full top-0 left-0"> 
+                                back side
+                            </div>
+                    </div>
+                    </div>
+                    
+
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+//mobile menu
+        const hamburger= document.querySelector('#hamburger');
+        const menu= document.querySelector('#menu');
+        const hLink = document. querySelector ('#hLink');
+        const FaSolid = document. querySelector ('.fa-solid');
+
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            FaSolid.classList.toggle('fa-xmark');
+        })
+
+        hLink.forEach(link => {
+            link.addEventListener('click', ()=>{
+                menu.classList.toggle('hidden');
+                FaSolid.classList.toggle('fa-xmark');
+            })
+            
+        });
+
+       
+
+
+    </script>
     
 </body>
 </html>
