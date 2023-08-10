@@ -1,17 +1,21 @@
 {
   "name": "bababobo",
+  "homepage": "https://shelterzone.co.ke",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/public/index.html",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "build": "npm run build-css && xcopy /y index.html build\\index.html",
+    "build-css": "tailwindcss -i ./input.css -o build/css/main.css",
     "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
